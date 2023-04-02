@@ -18,6 +18,13 @@ pipeline {
            echo 'this is test stage'
                  }
            }
+      stage ('Deploy') {
+         steps {
+           sh 'make publish'
+         }
+      }
+              
+            
     }
 }
           
