@@ -12,7 +12,14 @@ pipeline {
            echo 'This is build stage'
                 }
            }
-       }
+        
+      stage ('Test') {
+         steps {
+           echo 'this is test stage'
+                 }
+           }
     }
-         
+}
+          
+            
     
