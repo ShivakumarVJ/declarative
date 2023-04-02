@@ -7,12 +7,12 @@ pipeline {
                 }
            }
         
-        stage ('build') {
-            steps {
-                sh " echo, 'This is build stage' "
-            }
-        }
+      stage ('build') {
+         steps {
+           echo 'This is build stage'
+                }
+           }
+       }
     }
-}
          
     
