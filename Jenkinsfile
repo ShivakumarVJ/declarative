@@ -1,10 +1,10 @@
 pipeline {
     agent any
     stages {
-      stage ('fisrt stage') {
+      stage ('first stage') {
          steps {
-           sh "echo, 'This is my declarative pipeline' "
-               }
+           echo 'This is my declarative pipeline'
+                }
            }
      }
  }
