@@ -9,7 +9,7 @@ pipeline {
         
         stage ('build') {
             steps {
-                sh 'this is build stage'
+                sh ' this is build stage '
             }
         }
     }
